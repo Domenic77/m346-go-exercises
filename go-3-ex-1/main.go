@@ -48,7 +48,7 @@ func outputWithZodiacSign(p Person) {
 	}
 
 	// NOTE: The runes are defined above as constants.
-	
+
 	fmt.Printf("%s %s, born on %02d.%02d.%04d, has the zodiac sign %c.\n",
 		p.FirstName, p.LastName, p.Day, p.Month, p.Year, zodiacSign)
 }
